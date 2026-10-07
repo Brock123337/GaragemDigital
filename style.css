@@ -1,0 +1,10 @@
+body { font-family: Arial; background: #e6ecf2; margin: 0; text-align: center; }
+h1 { background: #0d1b2a; color: white; margin: 0; padding: 20px; }
+#menu { background: #0d1b2a; padding-bottom: 15px; }
+#menu a { color: white; margin: 0 8px; font-weight: bold; text-decoration: none; }
+.caixa { background: white; width: 350px; margin: 30px auto; padding: 20px; border: 1px solid #aaa; }
+input, select { display: block; width: 90%; margin: 10px auto; padding: 8px; }
+#busca { width: 300px; }
+button { background: #2196f3; color: white; border: none; padding: 8px 12px; cursor: pointer; }
+.card { background: white; border: 1px solid #ccc; width: 230px; padding: 10px; margin: 10px; display: inline-block; vertical-align: top; }
+#lista, #itens { margin: 20px; }

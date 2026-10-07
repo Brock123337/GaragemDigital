@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="mostrarCarrinho()">
+    <h1>🚘 Garagem Digital</h1>
+    <div id="menu"><a href="index.html">Home</a> <a href="carrinho.html">Carrinho</a> <a href="cliente.html">Cadastro</a> <a href="admin.html">Admin</a> <a href="login.html">Login</a> <a href="#" onclick="sair()">Sair</a></div>
+
+    <h2>🛒 Meu carrinho</h2>
+    <div id="itens"></div>
+    <h3 id="total"></h3>
+    <button onclick="finalizar()">Finalizar compra</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
